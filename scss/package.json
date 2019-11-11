@@ -1,0 +1,12 @@
+{
+  "name": "scss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "scripts": {
+    "compile:sass": "node-sass main.scss ../css/style.css -w"
+  }
+}
