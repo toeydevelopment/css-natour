@@ -24,6 +24,11 @@
     color: $color-grey;
   }
 
+  &--green {
+    background-color: $color-primary-dark;
+    color: white;
+  }
+
   &::after {
     content: "";
     display: inline-block;
