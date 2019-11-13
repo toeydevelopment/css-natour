@@ -1,6 +1,7 @@
 .btn {
   &:link,
-  &:visited {
+  &:visited,
+  & {
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
@@ -9,8 +10,13 @@
     transition: all 0.2s;
     box-shadow: 0 3px 3px rgba($color-black, 0.3);
     position: relative;
+
+    border: none;
+    cursor: pointer;
   }
-  &:hover {
+  &:hover,
+  &:focus {
+    outline: none;
     transform: translateY(-3px);
     box-shadow: 0 1rem 2rem rgba($color-black, 0.3);
   }
